@@ -1,0 +1,121 @@
+body {
+    background-color: #0C2B4E;
+    padding: 0%;
+    border: 0%;
+}
+
+
+.nome_inicio {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E5BA41;
+}
+
+
+.princip_img {
+    border-radius: 35px;
+
+}
+
+.princip_img:hover {
+    box-shadow: 0 0 15px #E5BA41;
+    transform: scale(1.04);
+    
+}
+
+p {
+    text-align: justify;
+    padding-left: 10px;
+    line-height: 1.6;
+    color: rgb(24, 24, 24);
+}
+
+ul {
+    text-align: justify;
+    padding-left: 10px;
+    line-height: 1.6;
+    color: rgb(24, 24, 24);
+}
+
+
+h2 {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10px;
+    color: #E5BA41;
+
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.conjuntos {
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #50589C;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+
+.conjuntos:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px #E5BA41;
+}
+
+.links {
+    text-align: justify;
+    padding-left: 10px;
+    color: whitesmoke;
+    border: auto;
+}
+
+.links:hover {
+    color: #E5BA41;
+}
+
+.PRINCIPAL {
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #3C467B;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.img_email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img_email img {
+    width:  35px;
+}
+
+header {
+    padding-bottom: 20px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10px;
+}
+
+a {
+    color: #E5BA41;
+    text-decoration: none;
+    gap: 20px;
+}
+
+a:hover {
+    color: whitesmoke;
+}
