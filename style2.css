@@ -3,3 +3,79 @@ body {
     padding: 0%;
     border: 0%;
 }
+
+.Principal_Experiencia {
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #3C467B;
+    margin: 20px;
+    padding: 20px;
+}
+
+.img_exp {
+    border-radius: 35px;
+    width: 300px;
+}
+
+.img_exp:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px #E5BA41;
+}
+
+.links {
+    text-align: justify;
+    color: whitesmoke;
+    padding-left: 10px;
+    border: auto;
+}
+
+.links:hover {
+    color: #E5BA41;
+}
+
+.nome_inicio {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E5BA41;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10px;
+    color: #E5BA41;
+
+}
+
+.conjuntos {
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #50589C;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.conjuntos:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px #E5BA41;
+}
+
+p {
+    text-align: justify;
+    padding-left: 10px;
+    line-height: 1.6;
+    color: rgb(24, 24, 24);
+
+}
+
+.IMG_VIDEO {
+    width: 250px;
+}
