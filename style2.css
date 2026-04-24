@@ -79,3 +79,22 @@ p {
 .IMG_VIDEO {
     width: 250px;
 }
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    color: #E5BA41;
+}
+th {
+    color: black;
+    background-color: #E5BA41;
+}
+
+.nomexinho {
+    background-color: #3C467B;
+}
+table:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px #E5BA41;
+}
